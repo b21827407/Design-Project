@@ -1,0 +1,179 @@
+bitirmeson) C:\Users\berke\Desktop\project\cnn_lstm>C:/Users/berke/miniconda3/envs/bitirmeson/python.exe c:/Users/berke/Desktop/project/cnn_lstm/train.py
+25
+7
+cuda
+C:\Users\berke\miniconda3\envs\bitirmeson\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\berke\miniconda3\envs\bitirmeson\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+0it [00:00, ?it/s]c:\Users\berke\Desktop\project\cnn_lstm\spatial_transforms.py:71: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only 
+storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  img = torch.ByteTensor(torch.ByteStorage.from_buffer(pic.tobytes()))
+25it [01:05,  2.62s/it]
+Epoch 1 Train Loss: 0.593, Train Accuracy: 0.769     
+Classification Report on Test:
+              precision    recall  f1-score   support
+
+           0       0.85      0.98      0.91       100
+           1       0.98      0.83      0.90       100
+
+    accuracy                           0.91       200
+   macro avg       0.91      0.91      0.90       200
+weighted avg       0.91      0.91      0.90       200
+
+Confusion Matrix on Test:
+[[98  2]
+ [17 83]]
+
+
+25it [00:53,  2.13s/it]
+Epoch 2 Train Loss: 0.312, Train Accuracy: 0.931
+Classification Report on Test:
+              precision    recall  f1-score   support
+
+           0       0.92      0.97      0.95       100
+           1       0.97      0.92      0.94       100
+
+    accuracy                           0.94       200
+   macro avg       0.95      0.95      0.94       200
+weighted avg       0.95      0.94      0.94       200
+
+Confusion Matrix on Test:
+[[97  3]
+ [ 8 92]]
+
+
+25it [00:53,  2.14s/it]
+Epoch 3 Train Loss: 0.190, Train Accuracy: 0.949
+Classification Report on Test:
+              precision    recall  f1-score   support
+
+           0       0.98      0.92      0.95       100
+           1       0.92      0.98      0.95       100
+
+    accuracy                           0.95       200
+   macro avg       0.95      0.95      0.95       200
+weighted avg       0.95      0.95      0.95       200
+
+Confusion Matrix on Test:
+[[92  8]
+ [ 2 98]]
+
+
+25it [00:55,  2.21s/it]
+Epoch 4 Train Loss: 0.153, Train Accuracy: 0.946
+Classification Report on Test:
+              precision    recall  f1-score   support
+
+           0       0.96      0.95      0.95       100
+           1       0.95      0.96      0.96       100
+
+    accuracy                           0.95       200
+   macro avg       0.96      0.95      0.95       200
+weighted avg       0.96      0.95      0.95       200
+
+Confusion Matrix on Test:
+[[95  5]
+ [ 4 96]]
+
+
+25it [00:54,  2.16s/it]
+Epoch 5 Train Loss: 0.103, Train Accuracy: 0.968
+Classification Report on Test:
+              precision    recall  f1-score   support
+
+           0       0.91      0.98      0.94       100
+           1       0.98      0.90      0.94       100
+
+    accuracy                           0.94       200
+   macro avg       0.94      0.94      0.94       200
+weighted avg       0.94      0.94      0.94       200
+
+Confusion Matrix on Test:
+[[98  2]
+ [10 90]]
+
+
+25it [00:53,  2.14s/it]
+Epoch 6 Train Loss: 0.078, Train Accuracy: 0.976
+Classification Report on Test:
+              precision    recall  f1-score   support
+
+           0       0.87      0.99      0.93       100
+           1       0.99      0.85      0.91       100
+
+    accuracy                           0.92       200
+   macro avg       0.93      0.92      0.92       200
+weighted avg       0.93      0.92      0.92       200
+
+Confusion Matrix on Test:
+[[99  1]
+ [15 85]]
+
+
+25it [00:53,  2.15s/it]
+Epoch 7 Train Loss: 0.043, Train Accuracy: 0.988
+Classification Report on Test:
+              precision    recall  f1-score   support
+
+           0       0.99      0.88      0.93       100
+           1       0.89      0.99      0.94       100
+
+    accuracy                           0.94       200
+   macro avg       0.94      0.94      0.93       200
+weighted avg       0.94      0.94      0.93       200
+
+Confusion Matrix on Test:
+[[88 12]
+ [ 1 99]]
+
+
+25it [00:55,  2.24s/it]
+Epoch 8 Train Loss: 0.018, Train Accuracy: 0.999
+Classification Report on Test:
+              precision    recall  f1-score   support
+
+           0       0.97      0.96      0.96       100
+           1       0.96      0.97      0.97       100
+
+    accuracy                           0.96       200
+   macro avg       0.97      0.96      0.96       200
+weighted avg       0.97      0.96      0.96       200
+
+Confusion Matrix on Test:
+[[96  4]
+ [ 3 97]]
+
+
+25it [00:54,  2.17s/it]
+Epoch 9 Train Loss: 0.010, Train Accuracy: 1.000
+Classification Report on Test:
+              precision    recall  f1-score   support
+
+           0       0.99      0.96      0.97       100
+           1       0.96      0.99      0.98       100
+
+    accuracy                           0.97       200
+   macro avg       0.98      0.97      0.97       200
+weighted avg       0.98      0.97      0.97       200
+
+Confusion Matrix on Test:
+[[96  4]
+ [ 1 99]]
+
+
+25it [00:55,  2.22s/it]
+Epoch 10 Train Loss: 0.006, Train Accuracy: 1.000
+Classification Report on Test:
+              precision    recall  f1-score   support
+
+           0       0.99      0.93      0.96       100
+           1       0.93      0.99      0.96       100
+
+    accuracy                           0.96       200
+   macro avg       0.96      0.96      0.96       200
+weighted avg       0.96      0.96      0.96       200
+
+Confusion Matrix on Test:
+[[93  7]
+ [ 1 99]]
